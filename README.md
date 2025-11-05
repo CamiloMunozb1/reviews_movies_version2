@@ -4,10 +4,10 @@ Este proyecto es un backend RESTful desarrollado con Flask para gestionar reseñ
 
 ## ✨ Características Principales
 
-API REST con Flask:  Rutas para crear y eliminar reseñas.
-Conexión a PostgreSQL: Persistencia de datos local.
-Sincronización con Notion: Integración con la API de Notion para mantener una copia de las reseñas en la nube.
-Transacciones Atómicas: Uso de commit y rollback para asegurar que las operaciones (DB local + Notion) sean exitosas o ninguna lo sea.
+-API REST con Flask:  Rutas para crear y eliminar reseñas.
+-Conexión a PostgreSQL: Persistencia de datos local.
+-Sincronización con Notion: Integración con la API de Notion para mantener una copia de las reseñas en la nube.
+-Transacciones Atómicas: Uso de commit y rollback para asegurar que las operaciones (DB local + Notion) sean exitosas o ninguna lo sea.
 
 ## 🛠️ RequisitosPara ejecutar este proyecto, necesitas tener instalados:
 
