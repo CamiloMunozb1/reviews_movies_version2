@@ -52,17 +52,17 @@ Endpoints Disponibles
 1. Crear Nueva Reseña (Atomicidad: DB INSERT + NOTION INSERT)
 2. Ruta: /moviesMétodo: POST
 3. Cuerpo (JSON Requerido):
-           {
-            "pelicula_name": "Interestellar",
-            "reseña_pelicula": "Una obra maestra de ciencia ficción...",
-            "calificacion_usario": 5
-          }
+             {
+              "pelicula_name": "Interestellar",
+              "reseña_pelicula": "Una obra maestra de ciencia ficción...",
+              "calificacion_usario": 5
+            }
 5. Eliminar Reseña (Atomicidad: DB DELETE + NOTION ARCHIVE)
 6. Ruta: /movies/delete (Asumiendo que es parte de tu Blueprint eliminar_review)
 7. Método: POSTCuerpo (JSON Requerido):
-         {
-          "movie_id": 42
-       }
+             {
+              "movie_id": 42
+           }
 (Nota: El movie_id debe ser el ID primario de la reseña en tu base de datos PostgreSQL).
 
 ## ⚠️ Coherencia de Datos (Importante)La clave de este backend es la coherencia. 
