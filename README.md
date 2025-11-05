@@ -21,27 +21,29 @@ Este proyecto es un backend RESTful desarrollado con Flask para gestionar reseñ
 -Acceso a la API de Notion (un token de integración y un ID de base de datos)
 
 -Dependencias de PythonLas principales librerías utilizadas se pueden instalar con pip:
-            pip install Flask flask-cors psycopg2-binary python-dotenv requests
+
+                        pip install Flask flask-cors psycopg2-binary python-dotenv requests
             
 ## ⚙️ Configuración del Entorno
 
-La aplicación utiliza variables de entorno para manejar las credenciales y la configuración de las APIs y la base de datos. Debes crear un archivo llamado .env en la raíz del proyecto.Archivo .env 
-        # ------------------------------------
-        # CONFIGURACIÓN DE POSTGRESQL
-        # ------------------------------------
-        DB_HOST=localhost
-        DB_NAME=mis_peliculas
-        DB_USER=postgres
-        DB_PASSWORD=mysecretpassword
-        DB_PORT=5432
-      
-        # ------------------------------------
-        # CONFIGURACIÓN DE NOTION API
-        # ------------------------------------
-        # El Token de Integración de la API de Notion
-        API_KEY=secret_xxxxxxxxxxxxxxxxxxxxxxxxxxx 
-        # El ID de la base de datos de Notion donde se guardarán las reseñas
-        ID_DATA_BASE=xxxxxxxxxxyxxxxxxxxxxxxxxxxxxxx
+La aplicación utiliza variables de entorno para manejar las credenciales y la configuración de las APIs y la base de datos. Debes crear un archivo llamado .env en la raíz del proyecto.
+
+                    # ------------------------------------
+                    # CONFIGURACIÓN DE POSTGRESQL
+                    # ------------------------------------
+                    DB_HOST=localhost
+                    DB_NAME=mis_peliculas
+                    DB_USER=postgres
+                    DB_PASSWORD=mysecretpassword
+                    DB_PORT=5432
+                  
+                    # ------------------------------------
+                    # CONFIGURACIÓN DE NOTION API
+                    # ------------------------------------
+                    # El Token de Integración de la API de Notion
+                    API_KEY=secret_xxxxxxxxxxxxxxxxxxxxxxxxxxx 
+                    # El ID de la base de datos de Notion donde se guardarán las reseñas
+                    ID_DATA_BASE=xxxxxxxxxxyxxxxxxxxxxxxxxxxxxxx
     
 ## 🚀 Uso y Endpoints
 
